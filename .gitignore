@@ -1,0 +1,12 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+ 
+# Environments
+Q-testing/env/
+Q-testing/venv/
+Q-testing/ENV/
+Q-testing/env.bak/
+Q-testing/venv.bak/
+Q-testing/vnev/
