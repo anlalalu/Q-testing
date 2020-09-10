@@ -1,0 +1,10 @@
+[Path]
+APK_NAME = AnyCut-debug.apk
+APP_SOURCE_PATH = /home/tim/Q-testing-benchmark/AnyCut-Release_1
+Benchmark = /home/tim/PyCharmProject/Q-testing/benchmark
+MANIFEST_FILE = /home/tim/Q-testing-benchmark/AnyCut-Release_1/app/src/main/AndroidManifest.xml
+
+
+[Setting]
+DEVICE_ID = 192.168.73.101:5555
+TIME_LIMIT = 360

@@ -1,0 +1,13 @@
+
+        <receiver android:name="com.example.huangan.activitytest.EndEmmaBroadcast" >
+            <intent-filter>
+                <action android:name="com.example.pkg.END_EMMA" />
+            </intent-filter>
+        </receiver>
+
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <instrumentation
+        android:name="com.example.huangan.activitytest.JacocoInstrumentation"
+        android:targetPackage="com.example.huangan.activitytest" >
+    </instrumentation>
