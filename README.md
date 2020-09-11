@@ -30,6 +30,7 @@ series = {ISSTA 2020}
 - Python: 2.7
 - Android SDK: API 19
 - Linux: Ubuntu 16.04
+- Gradle: (for instrumented apks)
 
 The above versions of software have been tested in our experiments. We use Pyinstalller to bundle the Q-testing project into executable files which can be run in Linux.  You don't need to install the tool or any python dependency; just download all the files will suffice. The application under test may be installed in a physical phone connected to a computer or in an Android virtual machine, of which the Genymotion Custom Phone (SDK 4.4, API level 19) has been tested.
 
