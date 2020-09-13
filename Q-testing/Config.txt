@@ -1,7 +1,7 @@
 [Path]
-APK_NAME = AnyCut-debug.apk
+APK_NAME = Runnerup.apk
 APP_SOURCE_PATH = /home/tim/Q-testing-benchmark/AnyCut-Release_1
-Benchmark = /home/tim/PyCharmProject/Q-testing/benchmark
+Benchmark = /home/tim/Q-testing-benchmark
 MANIFEST_FILE = /home/tim/Q-testing-benchmark/AnyCut-Release_1/app/src/main/AndroidManifest.xml
 
 
