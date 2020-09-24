@@ -28,7 +28,7 @@ series = {ISSTA 2020}
 #### System Requirements
 
 - Python: 2.7
-- Android SDK: API 19
+- Android SDK: API 19 (make sure `adb` and `aapt` commands are available)
 - Linux: Ubuntu 16.04
 - Gradle: (for instrumented apks)
 
@@ -36,9 +36,11 @@ The above versions of software have been tested in our experiments. We use Pyins
 
 ## Usage
 
+The artifact of Q-testing is shared with OneDrive, and can be downloaded [Here](https://1drv.ms/u/s!AkDYw1C0nZI4gs1wO07FowMS1_lHLg?e=WRKQCR)(需科学上网才能下载)
+
 #### Subject Requirements
 
-The applications under test can be open-source or closed-source. However, if you need test coverage information, source code is required and the application should be instrumented with JaCoCo first and then built as an APK file (see [JaCoCo/README](https://github.com/anlalalu/Q-testing/tree/master/JaCoCo) for detailed usage).
+The applications under test can be open-source or closed-source. However, if you need test coverage information, source code is required and the application should be instrumented with JaCoCo first and then built as an APK file (see JaCoCo/README for detailed usage).
 
 - The instrumented APK should be compiled and named with suffix "-debug.apk"
 - The closed-source/non-instrumented APK name should end with ".apk"
