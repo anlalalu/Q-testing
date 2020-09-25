@@ -31,12 +31,13 @@ series = {ISSTA 2020}
 - Android SDK: API 19 (make sure `adb` and `aapt` commands are available)
 - Linux: Ubuntu 16.04
 - Gradle: (for instrumented apks)
+- uiautomator: `pip install uiautomator==0.3.6`
 
-The above versions of software have been tested in our experiments. We use Pyinstalller to bundle the Q-testing project into executable files which can be run in Linux.  You don't need to install the tool or any python dependency; just download all the files will suffice. The application under test may be installed in a physical phone connected to a computer or in an Android virtual machine, of which the Genymotion Custom Phone (SDK 4.4, API level 19) has been tested.
+The above versions of software have been tested in our experiments. We use Pyinstalller to bundle the Q-testing project into executable files which can be run in Linux.  You don't need to install the tool or any other python dependency; just download all the files will suffice. The application under test may be installed in a physical phone connected to a computer or in an Android virtual machine, of which the Genymotion Custom Phone (SDK 4.4, API level 19) has been tested.
 
 ## Usage
 
-The artifact of Q-testing is shared with OneDrive, and can be downloaded [Here](https://1drv.ms/u/s!AkDYw1C0nZI4gtE0BnWrx44vTQsOqQ?e=0rSMUy)(需科学上网才能下载)
+The artifact of Q-testing is shared with OneDrive, and can be downloaded [Here](https://1drv.ms/u/s!AkDYw1C0nZI4gtE2LdNJQ4JcabRn3A?e=J7fQUw)(需科学上网才能下载)
 
 #### Subject Requirements
 
