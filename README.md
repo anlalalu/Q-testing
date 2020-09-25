@@ -37,7 +37,7 @@ The above versions of software have been tested in our experiments. We use Pyins
 
 ## Usage
 
-The artifact of Q-testing is shared with OneDrive, and can be downloaded [Here](https://1drv.ms/u/s!AkDYw1C0nZI4gtE2LdNJQ4JcabRn3A?e=J7fQUw)(需科学上网才能下载)
+The artifact of Q-testing is shared with OneDrive, and can be downloaded [Here](https://1drv.ms/u/s!AkDYw1C0nZI4gtE2LdNJQ4JcabRn3A?e=J7fQUw)
 
 #### Subject Requirements
 
@@ -104,6 +104,3 @@ The output contents are placed in folder `benchmark/<apk_name>_output-1/`
 /coverage_new_1/curve_data_all.txt -- The final code coverage.
 ```
 
-#### Contact
-
-You can contact the author Minxue Pan (mxp@nju.edu.cn) for technical details of the approach, and the author Guoxin Wang (njuwgx@smail.nju.edu.cn) for usage issues of the tool.
