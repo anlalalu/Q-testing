@@ -33,7 +33,7 @@ series = {ISSTA 2020}
 - Gradle: (for instrumented apks)
 - uiautomator: `pip install uiautomator==0.3.6`
 
-The above versions of software have been tested in our experiments. We use Pyinstalller to bundle the Q-testing project into executable files which can be run in Linux.  You don't need to install the tool or any other python dependency; just download all the files will suffice. The application under test may be installed in a physical phone connected to a computer or in an Android virtual machine, of which the Genymotion Custom Phone (SDK 4.4, API level 19) has been tested.
+The above versions of software have been tested in our experiments. We use Pyinstalller to bundle the Q-testing project into executable files which can be run in Linux.  You don't need to install the tool or any other python dependency; just download all the files will suffice. The application under test may be installed in a physical phone connected to a computer or in an Android virtual machine, of which API level 19 (4.4) and 28 (9.0) has been tested.
 
 ## Usage
 
