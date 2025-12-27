@@ -31,13 +31,13 @@ series = {ISSTA 2020}
 - Android SDK: API 19 (make sure `adb` and `aapt` commands are available)
 - Linux: Ubuntu 16.04
 - Gradle: (for instrumented apks)
-- uiautomator: `pip install uiautomator==0.3.6`
+- uiautomator: no longer required
 
 The above versions of software have been tested in our experiments. We use Pyinstalller to bundle the Q-testing project into executable files which can be run in Linux.  You don't need to install the tool or any other python dependency; just download all the files will suffice. The application under test may be installed in a physical phone connected to a computer or in an Android virtual machine, of which API level 19 (4.4) and 28 (9.0) has been tested.
 
 ## Usage
 
-The artifact of Q-testing is shared with OneDrive, and can be downloaded [Here](https://1drv.ms/u/s!AmfV7AZ50ULThzDYTBcerncLZzWF?e=OWKl5S)
+The artifact of Q-testing is shared with Zenodo, and can be downloaded [Here](https://doi.org/10.5281/zenodo.18068500)
 
 #### Subject Requirements
 
@@ -66,6 +66,12 @@ MANIFEST_FILE = /Users/Your_Name/Projects/test/src/main/AndroidManifest.xml
 DEVICE_ID = 192.168.72.1:5555
 # You may change TIME_LIMIT for debug.
 TIME_LIMIT = 3600
+# You can specify the launchable Activity, if Q-testing cannot find one.
+ACTIVITY_NAME =
+# You can determine whether Q-testing should clear app's data from time to time in the test
+SHOULD_CLEAR_DATA = True
+
+ 
 ```
 
 #### Running
@@ -75,13 +81,13 @@ For applications that require permission or login, you may want to install the a
 1. Run the application
 
    ```shell
-   ./Q-testing/main -r CONF.txt
+   ./main -r CONF.txt
    ```
 
 2. Calculate the test coverage (for instrumented APKs)
 
    ```shell
-   ./Q-testing/main -c CONF.txt
+   ./main -c CONF.txt
    ```
 
 #### Output
